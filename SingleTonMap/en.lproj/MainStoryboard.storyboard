@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="5Wc-CT-hEF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--One View Controller - Item-->
+        <scene sceneID="M1O-za-Y4V">
+            <objects>
+                <viewController id="EdP-P8-9wR" customClass="OneViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JWK-NN-mwn">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Click Button To Get" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TiS-gA-fHR">
+                                <rect key="frame" x="10" y="3" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Your Current Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tm1-Bg-NfP">
+                                <rect key="frame" x="10" y="41" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UcG-GB-ppt">
+                                <rect key="frame" x="100" y="348" width="120" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Where I Am">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findButton:" destination="EdP-P8-9wR" eventType="touchUpInside" id="bBZ-pC-Z3h"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YJW-gz-sLF">
+                                <rect key="frame" x="10" y="90" width="300" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47097222399999999" green="1" blue="0.86665687670000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ExV-P9-EU5">
+                                <rect key="frame" x="10" y="140" width="300" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47097222399999999" green="1" blue="0.86665687670000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RfW-VB-AnO">
+                                <rect key="frame" x="10" y="190" width="300" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47097222399999999" green="1" blue="0.86665687670000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h2G-AC-JxF">
+                                <rect key="frame" x="10" y="230" width="300" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47097222399999999" green="1" blue="0.86665687670000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j7E-Qp-dQa">
+                                <rect key="frame" x="10" y="270" width="300" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.47097222399999999" green="1" blue="0.86665687670000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="kdn-26-6V3"/>
+                    <connections>
+                        <outlet property="addressLable1" destination="YJW-gz-sLF" id="Rh7-ot-UYv"/>
+                        <outlet property="addressLable2" destination="ExV-P9-EU5" id="EsJ-g0-dPb"/>
+                        <outlet property="addressLable3" destination="RfW-VB-AnO" id="RC3-7f-oXJ"/>
+                        <outlet property="addressLable4" destination="h2G-AC-JxF" id="IIx-Th-KpC"/>
+                        <outlet property="addressLable5" destination="j7E-Qp-dQa" id="IvO-vt-YbF"/>
+                        <outlet property="oneLat" destination="TiS-gA-fHR" id="qJH-uG-9zm"/>
+                        <outlet property="oneLong" destination="tm1-Bg-NfP" id="wd1-UP-sls"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dj8-VB-V7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="669"/>
+        </scene>
+        <!--Two View Controller-->
+        <scene sceneID="llb-7C-urx">
+            <objects>
+                <viewController id="hDV-ch-0vc" customClass="TwoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s4A-U1-UKT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Latitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LYu-t2-c6Y">
+                                <rect key="frame" x="10" y="290" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Longitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="chh-iz-SVT">
+                                <rect key="frame" x="10" y="330" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DUb-YQ-7rj">
+                                <rect key="frame" x="92" y="158" width="136" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Find Coordinate">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fetchCoordinates:" destination="hDV-ch-0vc" eventType="touchUpInside" id="SAo-uF-PNQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Place" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FVe-0N-KDf">
+                                <rect key="frame" x="10" y="134" width="300" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.38402816408072404" blue="0.34647330335822502" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Latitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qvy-91-lQX">
+                                <rect key="frame" x="10" y="215" width="125" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" id="PbN-hX-QhY">
+                                <rect key="frame" x="40" y="51" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hDV-ch-0vc" id="SqJ-r9-XOK"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Street" minimumFontSize="17" id="tuZ-Bh-0kw">
+                                <rect key="frame" x="40" y="7" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hDV-ch-0vc" id="WPq-4d-lfT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Country" minimumFontSize="17" id="P3n-2A-J4j">
+                                <rect key="frame" x="40" y="97" width="220" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hDV-ch-0vc" id="Arb-Cw-7oj"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6zK-Mo-8t2">
+                                <rect key="frame" x="60" y="250" width="200" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Find This Area On Map">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XdG-Dk-xoF" kind="push" identifier="showDetailSegue" id="Unx-u5-mBC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Dl0-XT-kuu">
+                                <rect key="frame" x="292" y="333" width="18" height="19"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qPf-DE-xr4" kind="push" id="gbd-B1-XBk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Logitude" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ffW-bD-WRQ">
+                                <rect key="frame" x="175" y="215" width="125" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47097222399999999" green="1" blue="0.86665687670000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FCP-5K-HKv"/>
+                    <connections>
+                        <outlet property="MapButton" destination="6zK-Mo-8t2" id="4Hr-6O-cRD"/>
+                        <outlet property="cityField" destination="PbN-hX-QhY" id="zCS-mc-gIk"/>
+                        <outlet property="coordinatesLabel" destination="Qvy-91-lQX" id="t5A-QG-DEF"/>
+                        <outlet property="countryField" destination="P3n-2A-J4j" id="prZ-0y-2if"/>
+                        <outlet property="fetchCoordinatesButton" destination="DUb-YQ-7rj" id="6cr-Yw-jiZ"/>
+                        <outlet property="longitudeLabel" destination="ffW-bD-WRQ" id="LuG-P1-dMh"/>
+                        <outlet property="nameLabel" destination="FVe-0N-KDf" id="nIp-Nz-nD0"/>
+                        <outlet property="streetField" destination="tuZ-Bh-0kw" id="c7C-GE-o2r"/>
+                        <outlet property="twoLat" destination="LYu-t2-c6Y" id="lTV-GR-rj7"/>
+                        <outlet property="twoLong" destination="chh-iz-SVT" id="WoU-dc-7hw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8j-Lc-Hpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="1430"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="6e7-oo-l9b">
+            <objects>
+                <viewController id="XdG-Dk-xoF" customClass="MapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wUn-6e-5tm">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" id="b8p-oU-GTm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oEe-EF-ZCw"/>
+                    <connections>
+                        <outlet property="mapView" destination="b8p-oU-GTm" id="QaN-uI-eKM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cz0-y2-iws" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="1416"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2VE-nw-t27">
+            <objects>
+                <viewController id="qPf-DE-xr4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S6k-aT-HXv">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Map Appilcation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uwo-UK-Bjd">
+                                <rect key="frame" x="105" y="120" width="131" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96551684311810915" green="1" blue="0.30700897141600469" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RVo-WW-D5h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fb3-4J-OsX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="2103"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="j1W-Z6-k9g">
+            <objects>
+                <tabBarController id="5Wc-CT-hEF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="exs-ts-B8d">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EdP-P8-9wR" kind="relationship" relationship="viewControllers" id="rs1-i9-L87"/>
+                        <segue destination="gRW-St-W1H" kind="relationship" relationship="viewControllers" id="Yqo-da-5oI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0fC-df-Jkd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-600" y="1065"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="Jho-v9-Jy9">
+            <objects>
+                <navigationController id="gRW-St-W1H" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="PVs-8K-JhM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aLZ-68-qYl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hDV-ch-0vc" kind="relationship" relationship="rootViewController" id="YTc-3R-iDg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2KF-Fj-Na9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31" y="1430"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="OneViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OneViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="findButton:"/>
+                <relationship kind="outlet" name="addressLable1" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="addressLable2" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="addressLable3" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="addressLable4" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="addressLable5" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="oneLat" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="oneLong" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TwoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TwoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="fetchCoordinates:"/>
+                <relationship kind="outlet" name="MapButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="cityField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="coordinatesLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="countryField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="fetchCoordinatesButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="longitudeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="streetField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="twoLat" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="twoLong" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
